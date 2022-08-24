@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Rock--Paper--Scissors</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Rock || Paper || Scissors</h1>
+  </header>
+  <div class="score-board">
+    <div id="user-lable" class="badge">user</div>
+    <div id="comp-lable" class="badge">comp</div>
+    <span id="user-score">0</span><span>-</span><span id="comp-score">0</span>
+  </div>
+
+  <div id="result" class="result">
+    <p id="action-massage">Make your move <span id="userName"></span></p>
+  </div>
+
+  <div class="choices">
+    <i id="rock" class="fa-solid fa-hand-back-fist choice"></i>
+    <i id="paper" class="fa-solid fa-hand choice"></i>
+    <i id="scissors" class="fa-solid fa-hand-scissors choice"></i>
+  </div>
+
+  <!-- <p id="action-massage">Make your move</p> -->
+
+  <script src="/app.js"></script>
+</body>
+
+</html>

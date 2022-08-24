@@ -1,0 +1,100 @@
+body {
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+  width: 100%;
+  /* max-width: 700px; */
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(34, 33, 33);
+  color: #fff;
+}
+
+.header {
+  margin: 0 auto;
+  font-size: 1.8em;
+  color: rgb(33, 33, 33);
+  background-color: rgb(185, 200, 212);
+}
+
+.score-board {
+  position: relative;
+  border: 4px rgb(148, 142, 142) solid;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#user-lable {
+  position: absolute;
+  left: -25px;
+  top: 40%;
+  font-size: 1.2em;
+  background-color: rgb(176, 86, 86);
+}
+
+#comp-lable {
+  position: absolute;
+  right: -35px;
+  top: 40%;
+  font-size: 1.2em;
+  background-color: rgb(176, 86, 86);
+}
+
+.score-board > span {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 1.5em;
+}
+
+.choices {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.choice {
+  text-align: center;
+  font-size: 5em;
+  margin-right: 120px;
+  padding: 30px;
+  color: yellow;
+  cursor: pointer;
+  transition: 0.2s linear;
+
+  border: solid #fff;
+  border-radius: 50%;
+}
+
+.choice:last-child {
+  margin-right: 0;
+}
+
+.fa-solid:hover {
+  color: rgb(104, 104, 10);
+}
+
+#action-massage {
+  margin-top: 50px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 10px;
+}
+
+.green-glow {
+  border: solid rgb(38, 187, 43);
+  box-shadow: rgb(82, 129, 99) 0 0 10px 20px;
+}
+
+.red-glow {
+  border: solid rgb(202, 41, 41);
+  box-shadow: rgb(240, 106, 124) 0 0 10px 20px;
+}
+
+.gray-glow {
+  border: solid rgb(126, 124, 124);
+  box-shadow: rgb(192, 193, 192) 0 0 10px 20px;
+}
